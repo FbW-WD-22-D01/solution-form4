@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Form 4</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <section>
+                <form action="">
+                    <legend>Send us a message</legend>
+                    <label for="name">Name</label>
+                    <input 
+                        type="text" 
+                        name="name" 
+                        id="name" 
+                        required 
+                        pattern="[A-Za-z]{0,200}"
+                    >
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" required>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="10"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact">
+                    <h2>Contact us</h2>
+                    <hr>
+                    <p>We're open for suggestion or just to have a chat</p>
+                    <ul>                      
+                        <li>
+                            <div>
+                                <b>Adress:</b> 198 West 21th Street, Suite 721 New York NY 10016
+                            </div>
+                        </li>
+                        <li>
+                            <b>Phone:</b> + 1235 2355 98
+                        </li>
+                        <li>
+                            <b>Email:</b> info@yoursite.com
+                        </li>
+                        <li>
+                            <b>Website:</b> yoursite.com
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
