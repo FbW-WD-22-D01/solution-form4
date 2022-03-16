@@ -1,4 +1,4 @@
-# Formular Styling
+# Formular Styling - LÖSUNG
 
 - schau dir das Mockup an und versuche es möglichst genau nachzubauen
 - die Felder Email, Name und Subject sollten Pflichtfelder sein
